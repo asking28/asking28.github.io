@@ -17,11 +17,12 @@
 }
 .video-wrapper {
 	width: 640px;
-	float:left;
+	float:none;
 	margin-left:auto;
 	margin-right:auto;
 	max-width: 100%;
 }
+
 .container {
     position: relative;
     font-family: Arial;
