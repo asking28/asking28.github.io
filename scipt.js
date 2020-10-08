@@ -13,3 +13,6 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+function mul(a, b) {
+  return a * b;
+}
