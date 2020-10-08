@@ -53,6 +53,23 @@ I am doing my B.Tech project on Localization of Mobile Robot System under guidan
 	      <p>Worked on Object Recognition and Classification task using Deep Neural Networks. I applied Inception v3 model on Keras framework and YAD2K for drawing bounding boxes for different objects.<span id="dots">...</span><span id="more"> My work is mostly inspired by my assignment that I completed during my course on Deep Learning on Coursera. I have created my own dataset with two classes which are myself and my friend, Thamman. I trained YOLO v3 and YOLOv3_tiny architectures on my dataset to classify and draw accurate bounding boxes on our face detection. I trained the model on NVIDIA GPU for around 8 hrs and 1500 iterations. Model can Predict the class with above 90% accuracy and it is capable of drawing the bounding boxes with 70% recall, with Intersection Over union (IOU) of the bounding boxes. I plan to extend it on Image captioning so that once it is capable of predicting classes it can be fed to Recurrent Neural Networks to predict the relevant caption for the scene, which is more relevant A.I task. </span></p>
 		  
 		  <button onclick="myFunction()" id="myBtn">Read more</button>
+		  <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 		  
 	      <p><a href="https://github.com/asking28/Object-Recognition"> Project Link.</a></p>
 <h3>Resource Monitoring System (Cloud Watch)</h3>
